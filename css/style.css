@@ -35,33 +35,6 @@ body {
 	display: block;
 }
 
-.curtainFrame{
-	display:none;
-	position:relative;
-	z-index:2;
-	top:-649px;
-	right:-1px;
-	height:100%;
-	width:100%;
-	/*background:#FFAA00;*/
-}
-
-.circlelink:hover .curtainFrame{
-	display:block;
-}
-
-.curtain {
-	display:none;
-	height:100%;
-	width:100%;
-}
-
-#imgdefault {
-	display:block;
-}
-
-
-
 #log {
 	width: 500px;
 	display:none;

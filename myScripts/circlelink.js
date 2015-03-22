@@ -11,7 +11,6 @@ $(document).ready(function(){
 		$('.circlelink').css('margin-top', topmargin);
 		$('.circlelink .imgFrame').css('height', diameter);
 		$('.circlelink .imgFrame').css('width', diameter);
-		$('.curtainFrame').css('top', -1*diameter);
 		x0 = width/2;
 		y0 = height/2;
 	}
@@ -37,7 +36,7 @@ $(document).ready(function(){
 	$('.maindiv').mousemove(function(event){
 		x = event.pageX-x0;
 		y = -event.pageY+y0;
-		r = Math.round(R(this, event));
+		r = R(this, event);
 		theta = Theta(this, event);
 		n = (Math.floor((3.0/(2.0*Math.PI)) * (theta+(Math.PI/6))) + 3) % 3;
 		if(r<=diameter/2){
