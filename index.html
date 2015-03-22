@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>Ben Plotkin-Swing</title> 
+<link rel="stylesheet" type="text/css" href="css/style.css" title="Plotkin-Swing Stylesheet" />
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type='text/javascript' src='myScripts/circlelink.js'></script> 
+<!--<link rel="icon" type="image/png" href="myImages/favIconSmall.png"/>-->
+
+</head>
+<body>
+<div class="maindiv">
+	<div class="circlelink">
+		<div class="imgFrame">
+			<svg height="100%" width = "100%" viewbox="-1 -1 2 2">
+				<path class="region" id="0"
+						d="	M 0 0
+							L 0.86666666667 0.50 
+							A 1 1, 0, 0 0, 0 -1" 	
+						fill="red" stroke="none" opacity="1"
+				/>
+				<path class="region" id="1"
+						d="	M 0 0
+							L 0 -1 
+							A 1 1, 0, 0 0, -0.86666666667 0.50"  	
+						fill="green" stroke="none"  opacity="1"
+				/>
+				<path class="region" id="2"
+						d="	M 0 0
+							L -0.86666666666667 0.50 
+							A 1 1, 0, 0 0, 0.866666666667 0.50"  	
+						fill="aqua" stroke="none"  opacity="1"
+				/>
+			</svg>
+		</div>
+	</div><!--End circlelink-->
+	<div id="log">
+	</div><!--End log-->
+	<div id="log2">
+	</div><!--End log2-->
+</div><!--End maindiv-->
+</body>
+</html>
